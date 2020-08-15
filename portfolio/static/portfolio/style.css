@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f0f6f9;
+  font-family: "Tajawal", sans-serif;
+  /* background-color: #2b80aa; */
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+#introduction {
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* .eplan-logo {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+.navbar {
+  background-color: white;
+}

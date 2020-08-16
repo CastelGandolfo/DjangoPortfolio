@@ -1,9 +1,17 @@
+
 {% extends "portfolio/base.html" %}
+{% load static %}
+<script src="{% static 'project/app.js' %}"></script> 
+
 
 {% block title %}My amazing blog{% endblock %}
 
 {% block content %}
-<div class="container">
-XD
+<div id="introduction">
+{{ project.title }}
+
 </div>
+<p id="introduction">{{ project.description }}</p>
  {% endblock %}
+
+

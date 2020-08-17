@@ -3,5 +3,10 @@
 {% block title %}My amazing blog{% endblock %}
 
 {% block content %}
-<div id="introduction">Welcome to my blog</div>
+ {% load static %}
+ <h1 class="primary">Welcome to my portfolio page!</h1>
+<div id="introduction">
+<img id="image" src="{% static "portfolio/stickman.png" %}" alt="">
+<p id="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi unde similique consectetur voluptate, officiis facilis quaerat. Quod maxime voluptatibus laborum quos reprehenderit aperiam. Ipsam, ex voluptatibus magnam in, cupiditate nobis ducimus quos dolorem debitis deserunt ea illo rem, beatae maiores obcaecati. Tenetur est maiores officia natus voluptates consequuntur beatae adipisci. Atque at animi consectetur deserunt magnam reiciendis, inventore, quam iste fugit aspernatur, in voluptatibus obcaecati? Nulla illo natus sunt a quibusdam et, perferendis vitae blanditiis veritatis tenetur veniam dolorem labore enim quod saepe error aspernatur cum quam voluptatibus quas libero cumque distinctio. Deleniti, ipsum laborum? Dicta voluptate adipisci blanditiis neque.
+</p></div>
  {% endblock %}
